@@ -26,4 +26,7 @@ calculator.prototype.malfuntion = function(a, b) {
 calculator.prototype.risk = function(a, b) {
     return a+b;
 }
+calculator.prototype.second_risk = function (a) {
+    return 'b'
+}
 module.exports.calculator = calculator;
