@@ -23,4 +23,7 @@ calculator.prototype.divide = function(a, b){
 calculator.prototype.malfuntion = function(a, b) {
     return a % b
 }
+calculator.prototype.risk = function(a, b) {
+    return a+b;
+}
 module.exports.calculator = calculator;
